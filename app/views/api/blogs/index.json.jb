@@ -1,0 +1,7 @@
+@blogs.map do |blog|
+  {
+    id: blog.id,
+    title: blog.title, 
+    body: blog.body
+  }
+end
